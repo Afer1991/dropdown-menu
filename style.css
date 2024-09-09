@@ -1,0 +1,26 @@
+div {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+}
+
+button {
+  padding: 8px 32px;
+  font-size: 1.25rem;
+  border: none;
+  background: #000;
+  color: #FFF;
+  cursor: pointer;
+}
+
+button:hover, div > div:hover {
+  opacity: 80%;
+}
+
+div > div {
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}

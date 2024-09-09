@@ -13,14 +13,18 @@ button {
   cursor: pointer;
 }
 
-button:hover, div > div:hover {
+button:hover, #menu > div:hover {
   opacity: 80%;
 }
 
-div > div {
+#menu > div {
   background: #000;
   color: #FFF;
   text-align: center;
   padding: 10px 0;
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
